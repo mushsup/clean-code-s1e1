@@ -21,8 +21,10 @@ body {
 }
 
 @media (max-width:768px) {
-    .header { text-align: center;
+    .header { 
+        text-align: center;
     }
+
 }
 
 .main {
@@ -49,6 +51,7 @@ ul {
 li, h3 {
     list-style:none;
 }
+
 input,button{
     outline:none;
 }
@@ -131,7 +134,7 @@ li > label {
     width: 226px;
 }
 
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 
